@@ -256,17 +256,3 @@ CREATE TABLE IF NOT EXISTS distributions (
 
 ---
 
-## Team
-
-| Member | Role | Modules Owned |
-|---|---|---|
-| Member 1 | Database Architect | `DatabaseConnection`, `DatabaseInitializer`, `pom.xml`, schema design |
-| Member 2 | Data Modeler & Beneficiary Developer | All 3 model classes, `BeneficiaryDAO`, `BeneficiaryController` |
-| Member 3 | Stock & Inventory Developer | `StockDAO`, `StockController` |
-| Member 4 | Business Logic & Integration | `DistributionDAO`, `DistributionService`, `DistributionController`, `MainApp`, `MainController` |
-
----
-
-## License
-
-This project was developed as an academic project. Feel free to fork and extend it for educational purposes.
